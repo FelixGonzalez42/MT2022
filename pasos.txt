@@ -1,0 +1,59 @@
+git fetch origin estilos
+
+git pull origin estilos
+
+git add.
+
+git commit -m ""
+
+git push -u origin estilos 
+
+
+// en dev
+
+git merge estilo
+
+git add.
+
+git commit -m ""
+
+git push -u origin dev
+
+// nuevo cambio
+
+git checkout origin dev
+
+git fetch origin dev 
+
+git pull origin dev 
+
+//
+
+git reset --hard
+
+
+//
+gut log 
+git checkout commit (131#!#)
+
+//
+
+git branch dev
+git checkout dev
+git fetch origin dev
+git pull origin dev
+git merge [rama asignada]
+git status
+git commit -m "Merge with [rama asignada]"
+git push -u origin dev
+y confirmar en el github
+
+
+//
+https://github.com/StackOverflowers/learningDummies.git
+cd learningDummies
+git branch -r
+git branch repos (para mi caso)
+git checkout repos
+git fetch origin repos
+git pull origin repos
