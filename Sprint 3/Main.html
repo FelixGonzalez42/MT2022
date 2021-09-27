@@ -13,32 +13,73 @@
 </head>
 <body class="grid-container">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar1" >
-        <div class="container">
-         
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Vegetales</a>
-              <a class="nav-link active" aria-current="page"  href="#">Herramientas</a>
-              <a class="nav-link active " aria-current="page" href="#">Promociones</a>
-              <span class="headerSpacer"></span>
-              <a class="nav-link active " aria-current="page" href="#">Registro</a>
-              <a class="nav-link active " aria-current="page" href="#">Registro</a>
+    <nav class="navbar navbar-expand-lg navbar1" >   
+          
+      <div class="divlogo">
+          <img src="./assets/img/Logo_Kampo.png" alt="" class="logo">
+        </div>
+
+          <div class="row2 divbotonoes">
+            <div class="navbar-nav opciones2">
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>      
+              </form>
+              <button class="btn btn-outline-success botonpr" type="submit">Iniciar Sesion</button>
+              <button class="btn btn-outline-success botonpr" type="submit">Registrarse</button>
+               </div>
+            
+            <div class="navbar-nav opciones2">
+              <div class="btn-group botonmenu" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alimentos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>
+              <div class="btn-group botonmenu" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alimentos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>
+              <div class="btn-group botonmenu" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plantas
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>
+              <div class="btn-group botonmenu" role="group" >
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Herramientas
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>             
             </div>
-        </div>
+
+          </div>
+            
+      
       </nav>
 
 
 
 
-<aside class="sidebar1" >  
-</aside>
-
-<aside class="sidebar2" >  
-</aside>
 
 <article class="main1">  
   <div class="container">
@@ -90,8 +131,8 @@
 <article class="main2">
   
   <div class="container">
-    <div class="col align-items">
-      <div class="row">
+    <div class="row align-items">
+      <div class="col">
         <div class="card cardimg" style="width: 14rem; height: 14rem;">
           <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -101,7 +142,7 @@
         </div>
 
       </div>
-      <div class="row">
+      <div class="col">
         <div class="card cardimg"style="width: 14rem; height: 14rem;">
           <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -113,11 +154,9 @@
 
     </div>
 
-
-
     <div class="container">
-      <div class="col align-items">
-        <div class="row">
+      <div class="row align-items">
+        <div class="col">
           <div class="card cardimg" style="width: 14rem; height: 14rem;">
             <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -127,7 +166,7 @@
           </div>
   
         </div>
-        <div class="row" colspan="2">
+        <div class="col">
           <div class="card cardimg"style="width: 14rem; height: 14rem;">
             <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -135,9 +174,10 @@
               <p class="card-text">Some quick example text to build </p>              
             </div>
           </div>
-        </div>    
+        </div>  
   
       </div>
+
 
    
 

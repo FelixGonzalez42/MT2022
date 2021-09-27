@@ -1,12 +1,45 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  width: 100%;
+  background-color: aqua;
 }
 
-body {
-  min-height: 100%;
+.row2{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
 }
+
+.logo{
+  height: 90px;
+  width: auto;
+}
+
+.divlogo{
+  width: 30%;
+  padding-left: 30px;
+  
+}
+
+.divbotonoes{
+  align-items: center;
+  justify-content: right;
+}
+.opciones2{
+  align-items: center;
+  justify-content: right;
+  padding-right: 30px;
+ }
+
+
+.botonpr{
+  margin: 5px;
+}
+
+.botonmenu{
+  margin: 5px;
+}
+
 
 .imagenCarrousel {
   margin: 15px;
@@ -19,8 +52,8 @@ body {
 }
 
 .navbar1 {
-  grid-area: navbar1;
-  background-color: rgb(22, 156, 62);
+  grid-area: navbar1;  
+  background-color: #E6F4A2;
 }
 
 .main1 {
@@ -31,6 +64,8 @@ body {
   grid-area: main2;
   background-color: rgb(98, 161, 108);
 }
+
+
 
 .footer1 {
   grid-area: footer1;
@@ -60,3 +95,4 @@ body {
   line-height: 28px;
   font-size: 14px;
 }
+
