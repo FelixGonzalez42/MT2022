@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: aqua;
+  background-color:#FE423F;
 }
 
 .row2{
@@ -16,7 +16,7 @@ flex-wrap: wrap;
 }
 
 .divlogo{
-  width: 30%;
+  width: 100%;
   padding-left: 30px;
   
 }
@@ -69,7 +69,7 @@ flex-wrap: wrap;
 
 .footer1 {
   grid-area: footer1;
-  font-family: "Roboto", sans-serif;
+  font-family: "Calibri", sans-serif;
   background-color:  #E6F4A2;
   position: relative;
   width: 100%;
