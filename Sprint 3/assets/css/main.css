@@ -11,7 +11,7 @@ flex-wrap: wrap;
 }
 
 .logo{
-  height: 200px;
+  height: 140px;
   width: auto;
 }
 
@@ -93,7 +93,7 @@ flex-wrap: wrap;
 .footer-content p {
   color:  #FE423F;
   max-width: 500px;
-  margin: 5px auto;
+  margin: 2px auto;
   line-height: 28px;
   font-size: 14px;
 }
