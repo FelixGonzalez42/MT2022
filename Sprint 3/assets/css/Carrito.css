@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color:#FE423F;
+  background-color:#C5E419;
 }
 
 .row2{
@@ -62,7 +62,7 @@ flex-wrap: wrap;
 }
 .main2 {
   grid-area: main2;
-  background-color: rgb(98, 161, 108);
+  background-color: rgb(196, 230, 202);
 }
 
 
