@@ -9,8 +9,13 @@
 7 - 
 8 -
 9 - ⭐
+<<<<<<< HEAD:proyectos.txt
 10 - **
 11 - ⭐
+=======
+10 - *&
+11 - ⭐&
+>>>>>>> af8dec99e0066c4dc30ca23dcb3be8b1bd629489:Sprint 1/proyectos.txt
 12 - ⭐
 
 Pamela - 1 - Página para rankear hojas de vida y mostrar mejores opciones del sector.
