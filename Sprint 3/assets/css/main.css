@@ -11,7 +11,7 @@ flex-wrap: wrap;
 }
 
 .logo{
-  height: 140px;
+  height: 90px;
   width: auto;
 }
 
@@ -40,7 +40,6 @@ flex-wrap: wrap;
   margin: 5px;
 }
 
-
 .imagenCarrousel {
   margin: 15px;
   height: 170px;
@@ -61,7 +60,6 @@ flex-wrap: wrap;
   background-color: rgb(205, 230, 209);
 }
 .main2 {
-  grid-area: main2;
   background: url("../img/vaca.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +68,12 @@ flex-wrap: wrap;
 
 #Campo{
 
-width: -20vh; height: auto;float: right;position: absolute;color: #E6F4A2;margin: 20vh 5vh ;
+width: -20vh; 
+height: auto;
+float: right;
+position: absolute;
+color: #E6F4A2;
+margin: 20vh 5vh ;
 }
 #Banner_lateral{
   align-items: center;
@@ -78,9 +81,9 @@ width: -20vh; height: auto;float: right;position: absolute;color: #E6F4A2;margin
   font: #E6F4A2;
   z-index: initial;
 }
+
 .footer1 {
   grid-area: footer1;
-  font-family: "Roboto", sans-serif;
   background-color:  #E6F4A2;
   position: relative;
   width: 100%;
@@ -105,7 +108,7 @@ width: -20vh; height: auto;float: right;position: absolute;color: #E6F4A2;margin
   color:  #FE423F;
   max-width: 500px;
   margin: 2px auto;
-  line-height: 28px;
+  line-height: 15px;
   font-size: 14px;
 }
 

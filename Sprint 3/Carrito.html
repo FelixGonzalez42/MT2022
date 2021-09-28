@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kampo</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="./assets/css/Carrito.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -13,168 +13,159 @@
 </head>
 <body class="grid-container">
 
-    <nav class="navbar navbar-expand-lg navbar1" >   
+  <nav class="navbar navbar-expand-lg navbar1" >   
           
-      <div class="divlogo">
-          <img src="./assets/img/Logo_Kampo.png" alt="" class="logo">
-        </div>
+    <div class="divlogo">
+        <img src="./assets/img/Logo_Kampo.png" alt="" class="logo">
+      </div>
 
-          <div class="row2 divbotonoes">
-            <div class="navbar-nav opciones2">
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-              <button class="btn btn-outline-success botonpr" type="submit">Iniciar Sesion</button>
-              <button class="btn btn-outline-success botonpr" type="submit">Registrarse</button>
-               </div>
-            
-            <div class="navbar-nav opciones2">
-              <div class="btn-group botonmenu" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Alimentos
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Vegetales</a></li>
-                  <li><a class="dropdown-item" href="#">Frutas</a></li>
-                  <li><a class="dropdown-item" href="#">Lácteos</a></li>
-                  <li><a class="dropdown-item" href="#">Cárnicos</a></li>
-                </ul>
-              </div>
-              <div class="btn-group botonmenu" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Plantas
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Semillas</a></li>
-                  <li><a class="dropdown-item" href="#">Macetas</a></li>
-                  <li><a class="dropdown-item" href="#">Sustratos</a></li>
-                  <li><a class="dropdown-item" href="#">Fertilizantes</a></li>
-                </ul>
-              </div>
-              <div class="btn-group botonmenu" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Animales
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Nutrición</a></li>
-                  <li><a class="dropdown-item" href="#">Medicamentos</a></li>
-                  <li><a class="dropdown-item" href="#">Fertilidad</a></li>
-                </ul>
-              </div>
-              <div class="btn-group botonmenu" role="group" >
-                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Herramientas
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Riego</a></li>
-                  <li><a class="dropdown-item" href="#">Corte</a></li>
-                  <li><a class="dropdown-item" href="#">Protección</a></li>
-                </ul>
-              </div>             
+        <div class="row2 divbotonoes">
+          <div class="navbar-nav opciones2">
+            <button type="button" class="btn btn-outline-danger botonpr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+</svg>                  
+            </button>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+              
+
+            </form>
+          
+            <button type="button" class="btn btn-outline-danger botonpr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+<path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+</svg>
+              
+            </button>
+
+            <button class="btn btn-outline-danger botonpr" type="submit">Iniciar Sesion</button>
+            <button class="btn btn-outline-danger botonpr" type="submit">Registrarse</button>
+             </div>
+          
+          <div class="navbar-nav opciones2">
+            <div class="btn-group botonmenu" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Alimentos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Vegetales</a></li>
+                <li><a class="dropdown-item" href="#">Frutas</a></li>
+                <li><a class="dropdown-item" href="#">Lácteos</a></li>
+                <li><a class="dropdown-item" href="#">Cárnicos</a></li>
+              </ul>
             </div>
-
+            <div class="btn-group botonmenu" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Plantas
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Semillas</a></li>
+                <li><a class="dropdown-item" href="#">Macetas</a></li>
+                <li><a class="dropdown-item" href="#">Sustratos</a></li>
+                <li><a class="dropdown-item" href="#">Fertilizantes</a></li>
+              </ul>
+            </div>
+            <div class="btn-group botonmenu" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Animales
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Nutrición</a></li>
+                <li><a class="dropdown-item" href="#">Medicamentos</a></li>
+                <li><a class="dropdown-item" href="#">Fertilidad</a></li>
+              </ul>
+            </div>
+            <div class="btn-group botonmenu" role="group" >
+              <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Herramientas
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Riego</a></li>
+                <li><a class="dropdown-item" href="#">Corte</a></li>
+                <li><a class="dropdown-item" href="#">Protección</a></li>
+              </ul>
+            </div>             
           </div>
-            
-      
-      </nav>
 
+        </div>
+          
+    
+    </nav>
 
 
 <article class="main1">  
+  
   <div class="container">
-    <div class="row align-items-start">
-      <div class="col">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/img1.jpg" class="d-block w-100 imagenCarrousel" >
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/img2.jfif" class="d-block w-100 imagenCarrousel" >
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/img3.jfif" class="d-block w-100 imagenCarrousel" >
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/img4.jpg" class="d-block w-100 imagenCarrousel">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+    <h2 class="titulo">Mi carrito</h2>
+    <div class="row">
+      <div class="col divcarrito">
+        
+            <table class="tablaDesc" border="0">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th></th>
+                        <th>Envío</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="./assets/img/Fresas_PR.jpg" class="card-img-top" alt="Imagen del producto"></td>
+                        <td>Fresa</td>
+                        <td>A calcular</td>
+                        <td>$1.750</td>
+                        <td>5</td>
+                        <td>$8.750</td>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="5">Subtotal</th>
+                        <th>$8.750</th>
+                    </tr>
+                </tfoot>
+            </table>
+        
       </div>
+
+      <div class="col divresumen">
+        
+        <table class="tablaDesc" border="0">
+          <h3>Resumen de compra</h3>
+          <thead>
+              <tr>
+                  <td colspan="2">5 libras de Fresa</td>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th>Subtotal</th>
+                  <th>$8.750</th>
+              </tr>
+              <tr>
+                  <td>Descuento</td>
+                  <td>$0</td>
+              </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <th>Total</th>
+                  <th>$8.750</th>
+              </tr>
+          </tfoot>
+      </table>
+      <button type="button" class="btn btn-danger">Finalizar Compra</button>
+      
+      </div>
+
     </div>
 
 </div>
-
-</article>
-
-<article class="main2">
-  
-  <div class="container">
-    <div class="row align-items">
-      <div class="col">
-        <div class="card cardimg" style="width: 14rem; height: 14rem;">
-          <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build</p>              
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-        <div class="card cardimg"style="width: 14rem; height: 14rem;">
-          <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build </p>              
-          </div>
-        </div>
-      </div>  
-
-    </div>
-
-    <div class="container">
-      <div class="row align-items">
-        <div class="col">
-          <div class="card cardimg" style="width: 14rem; height: 14rem;">
-            <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build</p>              
-            </div>
-          </div>
-  
-        </div>
-        <div class="col">
-          <div class="card cardimg"style="width: 14rem; height: 14rem;">
-            <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build </p>              
-            </div>
-          </div>
-        </div>  
-  
-      </div>
-
-
-   
-
+<br>
 
 </article>
 
