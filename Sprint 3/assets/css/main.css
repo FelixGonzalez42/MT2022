@@ -11,7 +11,7 @@ flex-wrap: wrap;
 }
 
 .logo{
-  height: 140px;
+  height: 90px;
   width: auto;
 }
 
@@ -40,7 +40,6 @@ flex-wrap: wrap;
   margin: 5px;
 }
 
-
 .imagenCarrousel {
   margin: 15px;
   height: 170px;
@@ -62,14 +61,11 @@ flex-wrap: wrap;
 }
 .main2 {
   grid-area: main2;
-  background-color: rgb(98, 161, 108);
+  background-color: white;
 }
-
-
 
 .footer1 {
   grid-area: footer1;
-  font-family: "Roboto", sans-serif;
   background-color:  #E6F4A2;
   position: relative;
   width: 100%;
@@ -94,7 +90,7 @@ flex-wrap: wrap;
   color:  #FE423F;
   max-width: 500px;
   margin: 2px auto;
-  line-height: 28px;
+  line-height: 15px;
   font-size: 14px;
 }
 
