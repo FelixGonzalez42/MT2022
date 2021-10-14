@@ -4,7 +4,7 @@
       <div class="card" style="width: 18rem;">
       <img src="@/assets/img/Manzana_PR.jpg" alt="" srcset="" />
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title"> Card title</h5>
         <p class="card-text">
           La manzana es el fruto comestible de la especie Malus domestica, el manzano común. Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad
         </p>
