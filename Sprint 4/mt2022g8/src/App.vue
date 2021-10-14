@@ -1,6 +1,10 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
+    <router-link to="/alimentos">Alimentos</router-link> | 
+    <router-link to="/plantas">Plantas</router-link> | 
+    <router-link to="/animales">Animales</router-link> | 
+    <router-link to="/herramientas">Herramientas</router-link> | 
     <router-link to="/compras">Compras</router-link> | 
     <router-link to="/about">About</router-link>
   </div>

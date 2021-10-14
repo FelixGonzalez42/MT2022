@@ -84,7 +84,7 @@ margin: 20vh 5vh ;
 .footer1 {
   grid-area: footer1;
   background-color:  #E6F4A2;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
 }

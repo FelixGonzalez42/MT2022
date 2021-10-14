@@ -19,6 +19,26 @@ const routes = [
     path: '/compras',
     name: 'Compras',
     component: () => import(/* webpackChunkName: "about" */ '../views/Compras.vue')
+  },
+  {
+    path: '/alimentos',
+    name: 'Alimentos',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Alimentos.vue')
+  },
+  {
+    path: '/animales',
+    name: 'Animales',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Animales.vue')
+  },
+  {
+    path: '/plantas',
+    name: 'Plantas',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Plantas.vue')
+  },
+  {
+    path: '/herramientas',
+    name: 'Herramientas',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Herramientas.vue')
   }
 ]
 
