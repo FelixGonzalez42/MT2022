@@ -6,7 +6,7 @@
       <div class="card-body">
         <h5 class="card-title"> Card title</h5>
         <p class="card-text">
-          La manzana es el fruto comestible de la especie Malus domestica, el manzano común. Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad
+          La manzana nos aporta vitaminas B1 y B6, que evitan el agotamiento mental y refuerzan la memoria.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -17,8 +17,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Las bananas son alimentos ricos en fibra que si bien pueden ayudarnos a saciar el apetito, reponer energías, prevenir calambres musculares
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -29,8 +28,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Las fresas son ricas en fibra, antioxidantes, vitaminas y minerales, lo que ayuda a mantener un intestino saludable.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>

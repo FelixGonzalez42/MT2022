@@ -6,8 +6,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Flor del rosal, notable por su belleza, la suavidad de su fragancia y su color.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -18,8 +17,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Girasol denotan vitalidad, energía y alegría, las cualidades que atribuimos al sol.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -30,8 +28,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Trigo el cereal ancestral, uno de los tres granos más ampliamente producidos globalmente, junto al maíz y el arroz.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>

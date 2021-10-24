@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
+    <router-link to="/login">Login</router-link> | 
     <router-link to="/alimentos">Alimentos</router-link> | 
     <router-link to="/plantas">Plantas</router-link> | 
     <router-link to="/animales">Animales</router-link> | 
@@ -22,6 +23,7 @@
 
 #nav {
   padding: 30px;
+  background-color: #f0403d;
 }
 
 #nav a {

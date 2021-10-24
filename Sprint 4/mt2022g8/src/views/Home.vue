@@ -1,9 +1,7 @@
 <template>
-<header> <h1> {{titulo}} </h1> </header>
-
-<main>    
-<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut vero tenetur vel praesentium incidunt expedita voluptates, veniam perspiciatis eos laudantium earum quas, nisi ea reprehenderit? Nesciunt quas ab quisquam at!</p>
-</main>
+<div class="grid-container"> 
+  <img src="@/assets/img/home.png" alt="" class="img"/>
+  </div>
 
 </template>
 
@@ -41,3 +39,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.img{
+width: 100%;
+}
+
+</style>

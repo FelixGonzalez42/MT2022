@@ -6,8 +6,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Fertilizante, una sustancia orgánica o inorgánica que contiene nutrientes en formas asimilables por las plantas.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -18,8 +17,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Kit de herramientas ideal para la granja, este kit incluye; pala, pica, rastrillo, Segadora, Machete, Zapapicos.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -30,8 +28,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          La Maceta es un recipiente contenedor, normalmente en forma de cono truncado con un agujero en el fondo para el drenaje.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>

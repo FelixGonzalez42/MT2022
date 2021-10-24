@@ -6,8 +6,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Perro pastor, ayuda al hombre en el manejo de rebaños de ovejas, cabras y otros animales de granja.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -18,8 +17,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Pollito criollo Conocidos por su resistencia y su facilidad de crianza rustica, siendo así la mejor opción para la producción familiar, rápida y permanente.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
@@ -30,8 +28,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Razas porcinas latinoamericanas que tienen origen en el cerdo ibérico.
         </p>
         <button class="btn btn-danger">Comprar</button>
       </div>
