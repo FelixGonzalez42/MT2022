@@ -1,25 +1,12 @@
 <template>
-  <div class="bod" >    
-    <h2>Bienvenido Invitado</h2>
-    <h4>Este es tu Carrito de compra</h4>
-
-    <div class="grid-container" >
-    <div> <b>Producto</b>  
-    <br> Fresa  
-    <br> Manzaba 
-    <br> Pollito 
-    <br> Rosa 
-    <br> Perrito 
-    </div>
-    <div> <b>Precio</b> </div>
-    <div> <b>Cantidad</b> </div>
-    <div> <b>Total </b> </div>
-    <div> <b>Resumen de compra</b> </div>
-      </div> 
+<div class="grid-container"> 
+  <img src="@/assets/img/home.png" alt="" class="img"/>
   </div>
+
 </template>
 
 <script>
+
 export default {
   mounted(){
     let prod1 = {"nombre": "MANZANA", "precio" : 7000 };
@@ -55,26 +42,8 @@ export default {
 
 <style>
 
-.bod{
-  background-color: #21f3ad;
+.img{
+width: 100%;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1px;
-    background-color: #21f3ad;
-    padding: 5px;
-    
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid black;
-    text-align: center;
-    font-size: 20px;
-    margin: 10px;
-}
-
 
 </style>
