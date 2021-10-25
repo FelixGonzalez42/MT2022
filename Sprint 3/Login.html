@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantas | Kampo</title>
+    <title>Login | Kampo</title>
+    <link rel="stylesheet" href="./assets/css/register.css">
     <link rel="stylesheet" href="./assets/css/Millonario.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
 </head>
-<body class="grid-container">
+<body class="grid-container1">
 
   <nav class="navbar navbar-expand-lg navbar1" >   
         
@@ -39,9 +40,16 @@
 </svg>
               
             </button>
-
-            <button class="btn btn-outline-danger botonpr" type="submit">Iniciar Sesion</button>
-            <button class="btn btn-outline-danger botonpr" type="submit">Registrarse</button>
+            <div class="btn-group botonmenu" role="group">
+              <a id="btnGroupDrop1" type="button" class="btn btn-none" aria-expanded="false" href="./Login.html">
+                Iniciar Sesión
+              </a>
+            </div>
+            <div class="btn-group botonmenu" role="group">
+              <a id="btnGroupDrop1" type="button" class="btn btn-none" aria-expanded="false" href="./Register.html">
+                Registrarse
+              </a>
+            </div>
              </div>
           
           <div class="navbar-nav opciones2">
@@ -107,133 +115,56 @@
 <aside class="sidebar2" >  
 </aside>
 
-<article class="main2">
-
-  <div style="width: -20vh; height: auto;float: right;position: relative;">
-    <div id="Campo"><h1 align="center"><font size="6em">Cuidado de</font><font size="7em"><b>  plantas</b></font></h1></div>
-    <div style="background-color:#84AA02; width: -20vh; height: auto;float: right;position: absolute;color: #E6F4A2;margin: 40vh 5vh ;">
-      <p align="left">
-        <font size="3em">Aquí encuentras todo lo que necesitas para sembrar y cuidar tus plantas de huertos y jardines.</font>
-      </p>
-    </div>
-    <img src="./assets/img/sombrita.png" style="width: 50vh;height: 76vh;" alt="...">
+<article class="main1">  
+  <div class="header">
+    <h3>Login</h3>
+     
   </div>
-</article> 
+</article>
 
-<article class="mainb">
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card cardimg" style="width: 15rem;">
-          <img src="./assets/img/Semillas_Categoria.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Semillas</h5>             
+<article class="main2">
+  <div class="grid-container2">
+    <div class="prueba"> </div>
+    <div class="divlog">
+      <form>
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos su correo electrónico con nadie más.
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card cardimg" style="width: 15rem;">
-          <img src="./assets/img/Macetas_Categoria.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Macetas</h5>              
-          </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
         </div>
+       
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Recordar Usuario</label
+          >
+        </div>
+        <button type="submit" class="btn btn-danger"><router-link to="/">Enviar</router-link> </button>
+      </form>
     </div>
-  
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card cardimg" style="width: 15rem;">
-          <img src="./assets/img/Sustratos_Categoria.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Sustratos</h5>          
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card cardimg" style="width: 15rem;">
-          <img src="./assets/img/Fertilizantes_Categoria.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Fertilizantes</h5>            
-          </div>
-        </div>
-      </div>
-    </div>    
-  </article>
+  </div>
 
-  <article class="main2">
+      </article>
+
   
-    <div class="container">
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card cardimg" style="width: 15rem;">
-            <img src="./assets/img/Cilantro_sem.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cilantro</h5>
-              <p class="card-text">Esta es la descripción completa del producta. La cuál incluye los beneficios, cantidades y el precio.</p>              
-            </div>
-          </div>
-  
-        </div>
-        <div class="col">
-          <div class="card cardimg" style="width: 15rem;">
-            <img src="./assets/img/Girasol_sem.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Girasol</h5>
-              <p class="card-text">Esta es la descripción completa del producta. La cuál incluye los beneficios, cantidades y el precio</p>              
-            </div>
-          </div>
-  
-        </div>
-        <div class="col">
-          <div class="card cardimg" style="width: 15rem;">
-            <img src="./assets/img/Acelga_sem.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Acelga</h5>
-              <p class="card-text">Esta es la descripción completa del producta. La cuál incluye los beneficios, cantidades y el precio</p>              
-            </div>
-          </div>
-  
-        </div>
-      </div>
-  
-      <div class="container">
-        <div class="row align-items-start">
-          <div class="col">
-            
-            <div class="card cardimg" style="width: 15rem;">
-              <img src="./assets/img/Dalia_sem.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Dalias</h5>
-                <p class="card-text">Esta es la descripción completa del producto. La cuál incluye los beneficios, cantidades y el precio</p>              
-              </div>
-            </div>
-  
-          </div>
-          <div class="col">
-            <div class="card cardimg" style="width: 15rem;">
-              <img src="./assets/img/Zanahoria_sem.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Zanahoria</h5>
-                <p class="card-text">Esta es la descripción completa del producto. La cuál incluye los beneficios, cantidades y el precio.</p>              
-              </div>
-            </div>
-  
-          </div>
-          <div class="col">
-            <div class="card cardimg" style="width: 15rem;">
-              <img src="assets/img/Ahuyama_sem.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Ahuyama</h5>
-                <p class="card-text">Esta es la descripción completa del producto. La cuál incluye los beneficios, cantidades y el precio.</p>              
-              </div>
-            </div>
-  
-          </div>
-        </div>
-  
-  </article>
-      
+    
 
 <footer class="footer1" >   
     <div class="footer-content">
